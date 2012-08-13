@@ -1,0 +1,15 @@
+{NOTES}
+{SCRIPT}
+set variable #1 to color at location #1
+repeat 1000
+  send macro #1
+  if color at location #1 is not variable #1 then
+    end script
+  end if
+end repeat
+{CORDINATES}
+501 711 Nightreaver
+{MACROS}
+Hide|^H
+{VARIABLES}
+Nightreaver Color|1053800

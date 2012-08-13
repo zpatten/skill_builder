@@ -1,0 +1,14 @@
+{NOTES}
+{SCRIPT}
+set variable #1 to color at location #2
+repeat 1000
+  if color at location #2 is not variable #1 then
+    drag all from location #1 to location #2
+  end
+end repeat
+{CORDINATES}
+102 811 Cargo
+366 819 Can
+{MACROS}
+{VARIABLES}
+Can Background|0

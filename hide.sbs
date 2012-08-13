@@ -1,0 +1,21 @@
+{NOTES}
+{SCRIPT}
+set variable #1 to color at location #1
+repeat 10
+  send macro #1
+  wait 2
+  if color at location #1 is not variable #1 then
+    wait 15
+    right click at location #2 for 250
+    wait 2
+    right click at location #3 for 250
+  end if
+end repeat
+{CORDINATES}
+501 711 Nightreaver
+647 860 Move Away
+366 560 Move Back
+{MACROS}
+Hide|^H
+{VARIABLES}
+Nightreaver Color|1053800

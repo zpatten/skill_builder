@@ -1,0 +1,26 @@
+{NOTES}
+This is a test
+To see if it will
+Correctly read in the script
+File...
+
+HAHklfja;lkdjf
+
+This is test2.sbs
+{SCRIPT}
+// A little test script...
+Send Macro #1
+{CORDINATES}
+143 843 Test Cord #1
+234 1200 Test Cord #2
+{MACROS}
+Test macro 1|^S
+Test macro 2|^C
+Something|: ahahahaha
+asdfasdf|sdfgdfg
+asdfasdf|adgasdf
+adfasdfasdf|adgsdfga
+{VARIABLES}
+variable 1|9343
+test|49342
+something cool|34234
